@@ -81,7 +81,7 @@ a {
 /* Header */
 
 nav {
-    margin: 2% 0 1% 0;
+    margin: 3% 0 1% 0;
 }
 
 header nav {
@@ -98,7 +98,7 @@ header nav a {
 }
 
 .banner {
-    margin: 3% 0;
+    margin: 4% 0 3% 0;
 }
 
 /* Top Content */
@@ -238,7 +238,7 @@ footer nav a {
 }
 
 .about-page .middle-content .text-container {
-    margin: 2% 0;
+    margin: 1% 0 4% 0;
     border-bottom: 1px dashed black;
     width: 46%;
     display: flex;
@@ -246,7 +246,7 @@ footer nav a {
 }
 
 .about-page .middle-content img {
-    margin-bottom: 4%;
+    margin: 2% 0 4% 0;
 }
 
 .about-page .middle-content h2 {
@@ -272,5 +272,5 @@ footer nav a {
 
 .about-page .bottom-content {
     flex-direction: column;
-    margin: 2% 2% 5% 2%;
+    margin: 2% 2% 7% 2%;
 }
