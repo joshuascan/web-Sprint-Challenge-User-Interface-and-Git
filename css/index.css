@@ -225,7 +225,37 @@ footer nav a {
 /* Top Content */
 
 .about-page .top-content .text-container {
-    width: 96%;
+    width: 98%;
 }
 
 /* Middle Content */
+
+.about-page .middle-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+    margin-bottom: 20px;
+    border: none;
+}
+
+.about-page .middle-content .text-container {
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+    width: 46%;
+    padding-top: ;
+}
+
+.about-page .middle-content img {
+    margin: 3% 0;
+}
+
+.about-page .middle-content h2 {
+    padding: 0;
+}
+
+.about-page .middle-content p {
+    padding: 4% 0;
+}
+
+.learn-more
