@@ -51,6 +51,8 @@ table {
     box-sizing: border-box;
 }
 
+/* General Styles */
+
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
@@ -71,6 +73,38 @@ p {
     margin: 0 auto;
 }
 
+a {
+    text-decoration: none;
+    font-size: 14px;
+}
+
+/* ---HOME PAGE--- */
+
+/* Header */
+
+nav {
+    margin: 3% 0 1% 0;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: flex-end;
+}
+
+header nav a {
+    color: black;
+    font-size: 14px;
+    margin: 0 5%;
+}
+
+.banner {
+    margin: 4% 0 3% 0;
+}
+
+/* Top Content */
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -84,6 +118,8 @@ p {
     padding: 0 1%;
     padding-bottom: 20px;  
 }
+
+/* Middle Content */
 
 .middle-content {
     margin-bottom: 20px;
@@ -104,13 +140,54 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
+.box1 {
+    background-color: teal;
+}
+
+.box2 {
+    background-color: gold;
+}
+
+.box3 {
+    background-color: cadetblue;
+}
+
+.box4 {
+    background-color: coral;
+}
+
+.box5 {
+    background-color: crimson;
+}
+
+.box6 {
+    background-color: forestgreen;
+}
+
+.box7 {
+    background-color: darkorchid;
+}
+
+.box8 {
+    background-color: hotpink;
+}
+
+.box9 {
+    background-color: indigo;
+}
+
+.box10 {
+    background-color: dodgerblue;
+}
+
+/* Bottom Content */
 
 .bottom-content {
     display: flex;
@@ -126,6 +203,8 @@ p {
     padding-right: 0;
 }
 
+/* Footer */
+
 footer {
     width: 100%;
     background: black;
@@ -137,10 +216,63 @@ footer nav {
     justify-content: space-between;
     align-items: center;
     padding: 20px 2%;
-    font-size: 14px;
 }
 
 footer nav a {
     color: white;
-    text-decoration: none;
+}
+
+/* ---ABOUT PAGE--- */
+
+/* Top Content */
+
+.about-page .top-content .text-container {
+    width: 98%;
+}
+
+/* Middle Content */
+
+.about-page .middle-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border: none;
+}
+
+.about-page .middle-content .text-container {
+    margin: 1% 0 4% 0;
+    border-bottom: 1px dashed black;
+    width: 46%;
+    display: flex;
+    flex-direction: column;
+}
+
+.about-page .middle-content img {
+    margin: 2% 0 4% 0;
+}
+
+.about-page .middle-content h2 {
+    padding: 0;
+}
+
+.about-page .middle-content p {
+    padding: 4% 0;
+}
+
+.learn-more {
+    color: black;
+    font-size: 16px;
+    border: 2.5px solid black;
+    border-radius: 10px;
+    padding: 2.5%;
+    margin: 1% 0 6% 0;
+    text-align: center;
+    width: 36%;
+}
+
+/* Bottom Content */
+
+.about-page .bottom-content {
+    flex-direction: column;
+    margin: 2% 2% 5% 2%;
 }
