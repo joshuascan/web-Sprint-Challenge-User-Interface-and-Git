@@ -34,7 +34,7 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
-    It is HTML where the tags themselves provide meaning and context to the content that they contain. They help clarify structure and make the code easier to read.
+    It is HTML where the tags themselves provide meaning and context to the content that they contain. They help clarify structure and make the code easier to read. In addition, they help people who are using text readers to hear the structure of the page.
 
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
 
