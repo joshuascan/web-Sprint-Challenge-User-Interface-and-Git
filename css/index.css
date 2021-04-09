@@ -94,7 +94,7 @@ header nav {
 header nav a {
     color: black;
     font-size: 14px;
-    padding: 0 5%;
+    margin: 0 5%;
 }
 
 .banner {
@@ -234,20 +234,19 @@ footer nav a {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    align-content: center;
-    margin-bottom: 20px;
     border: none;
 }
 
 .about-page .middle-content .text-container {
-    margin-bottom: 20px;
+    margin: 2% 0;
     border-bottom: 1px dashed black;
     width: 46%;
-    padding-top: ;
+    display: flex;
+    flex-direction: column;
 }
 
 .about-page .middle-content img {
-    margin: 3% 0;
+    margin-bottom: 4%;
 }
 
 .about-page .middle-content h2 {
@@ -258,4 +257,20 @@ footer nav a {
     padding: 4% 0;
 }
 
-.learn-more
+.learn-more {
+    color: black;
+    font-size: 16px;
+    border: 2.5px solid black;
+    border-radius: 10px;
+    padding: 2.5%;
+    margin: 1% 0 6% 0;
+    text-align: center;
+    width: 36%;
+}
+
+/* Bottom Content */
+
+.about-page .bottom-content {
+    flex-direction: column;
+    margin: 2% 2% 5% 2%;
+}
