@@ -219,3 +219,13 @@ footer nav {
 footer nav a {
     color: white;
 }
+
+/* ---ABOUT PAGE--- */
+
+/* Top Content */
+
+.about-page .top-content .text-container {
+    width: 96%;
+}
+
+/* Middle Content */
