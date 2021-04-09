@@ -78,6 +78,8 @@ a {
     font-size: 14px;
 }
 
+/* ---HOME PAGE--- */
+
 /* Header */
 
 nav {
@@ -272,5 +274,5 @@ footer nav a {
 
 .about-page .bottom-content {
     flex-direction: column;
-    margin: 2% 2% 7% 2%;
+    margin: 2% 2% 5% 2%;
 }
